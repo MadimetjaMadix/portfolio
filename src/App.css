@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+
+/*Navigation styling*/
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #a2aee2 !important;
+  background-color: #2d3035 !important;
+  display: none;
+}
+
+.nav-pills .nav-link a {
+  text-decoration: none !important;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    flex-basis: 0 !important;
+    flex-grow: 0 !important;
+  }
+}
