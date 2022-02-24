@@ -1,3 +1,8 @@
+/* Colour definations*/
+:root{
+  --bg-acc-colour: rgb(33,37,41);
+  --bg-body-colour: rgb(228,228,227);
+}
 .App {
   text-align: center;
 }
@@ -24,4 +29,17 @@
     flex-basis: 0 !important;
     flex-grow: 0 !important;
   }
+}
+
+/*Footer styling*/
+.footer{
+  background: var(--bg-acc-colour);
+  color: var(--bg-body-colour);
+  height: 10vh;
+}
+
+.footer p{
+  display: block;
+  align-content: center;
+  padding-top: 2em;
 }

@@ -1,6 +1,8 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './Components/NavBar'
+import LandingPage from './Components/LandingPage'
+import Footer from './Components/Footer'
 
 function App () {
   return (
@@ -12,9 +14,11 @@ function App () {
         crossOrigin='anonymous'
       />
       <BrowserRouter>
+        <NavBar />
         <Routes>
-          <Route exact path='/' element={<NavBar />} />
+          <Route path='/' element={<LandingPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </div>
