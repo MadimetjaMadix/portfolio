@@ -1,44 +1,56 @@
 {
-    "Name":"Madimetja Sethosa",
+    "name":"Madimetja Sethosa",
     "logoPath":"../Images/My-Logo.png",
-    "tagLine":"aspiring Web Developer",
+    "tagLine":"an aspiring Full-Stack Web Developer",
     "description":"I am an Electrical Engineer, who loves to build things in real life, internet and everything in betwen. My interests lie between Software Engineering and Data science.",
-    "contacts": {
-        "email": "madimetjasethoa@gmail.com",
-        "linkedIn":"https://www.linkedin.com/in/madimetja-sethosa-230754b9/",
-        "github": "https://github.com/MadimetjaMadix"
-    },
+    "contacts": [
+        {
+            "name": "email",
+            "link": "mailto:madimetjasethoa@gmail.com",
+            "icon": "fluent:mail-48-filled"
+        },
+        {
+            "name": "linkedIn",
+            "link": "https://www.linkedin.com/in/madimetja-sethosa-230754b9/",
+            "icon": "fa:linkedin-square"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/MadimetjaMadix",
+            "icon": "fa:github-square"
+        }
+    ],
     "skills":[
         { "name": "Web Developer",
-            "icon": ""},
+            "icon": "arcticons:developerwidget"},
         { "name": "Agile Software Development",
-            "icon": ""},
+            "icon": "eos-icons:content-lifecycle-management"},
         { "name": "Technical Documentation",
-            "icon": ""},
+            "icon": "et:document"},
         { "name": "Version Control",
-            "icon": ""},
+            "icon": "arcticons:git"},
         { "name": "Data Visualisation",
-            "icon": ""},
+            "icon": "file-icons:grapher"},
         { "name": "Basic Cyber Security",
-            "icon": ""},
+            "icon": "arcticons:security"},
         { "name": "Machine Learning",
-            "icon": ""}
+            "icon": "carbon:machine-learning-model"}
     ],
     "p_languages":[
         { "name": "C++",
-            "icon": ""},
+            "icon": "logos:c-plusplus"},
         { "name": "JavaScript",
-            "icon": ""},
+            "icon": "logos:javascript"},
         { "name": "Python",
-            "icon": ""},
+            "icon": "logos:python"},
         { "name": "Matlab",
-            "icon": ""},
+            "icon": "vscode-icons:file-type-matlab"},
         { "name": "HTML5",
-            "icon": ""},
+            "icon": "vscode-icons:file-type-html"},
         { "name": "CSS",
-            "icon": ""},
+            "icon": "vscode-icons:file-type-css"},
         { "name": "SQL",
-            "icon": ""}
+            "icon": "vscode-icons:file-type-sql"}
     ],
     "projects":[
         { "name": "Current Weather App",
