@@ -1,18 +1,35 @@
 /* Colour definations*/
 :root{
-  --bg-acc-colour: rgb(33,37,41);
+  --bg-acc-colour: rgb(6,9,14);
   --bg-body-colour: rgb(228,228,227);
+  --bg-blue-colour: rgba(0, 26, 49, 1);
+  --bg-black-colour: rgb(3, 6, 8);
+  --text-acc-colour: rgb(119, 209, 221);
+  --text-colour: rgb(211, 222, 253);
 }
+
 .App {
   text-align: center;
 }
 
+
 /*Navigation styling*/
+
+nav {
+  background-color: var(--bg-acc-colour) !important;
+}
+
+.active {
+  color: #92a1e6 !important;
+  background-color: var(--bg-acc-colour) !important;
+  border-bottom: 1px solid rgb(16,35,50) !important;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  color: #a2aee2 !important;
-  background-color: #2d3035 !important;
-  display: none;
+  color: #92a1e6 !important;
+  background-color: var(--bg-acc-colour) !important;
+  border-bottom: 1px solid rgb(16,35,50) !important;
 }
 
 .nav-pills .nav-link a {
@@ -24,11 +41,63 @@
   justify-content: space-between !important;
 }
 
+.navbar-nav div {
+  flex-direction: column !important;
+}
+
 @media screen and (min-width: 768px) {
-  .navbar-collapse {
+  .navbar-expand-md .navbar-collapse {
     flex-basis: 0 !important;
     flex-grow: 0 !important;
   }
+  .navbar-nav div {
+    display:flex !important;
+    flex-direction: row !important;
+  }
+}
+
+/* Landing page styling*/
+.App {
+  background-image: url(./Images/landing-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 1s ease-in-out;
+  min-height: 100vh;
+  background-attachment: fixed;
+  color: var(--text-colour);
+}
+
+.welcome-tint{
+  background: linear-gradient(to right, rgba(0,0,0, 0.5), rgba(0,0,0, 0)) ;
+  
+}
+
+.home {
+  min-height: 90vh;
+}
+
+.home-content {
+  padding-top: 20vh;
+  background: linear-gradient(to right, rgba(0,0,0, 0.5), rgba(0,0,0, 0.0)) ;
+  min-height: 85vh;
+  height: 100% !important;
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 700px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.skills, .projects, .contacts {
+  background: linear-gradient(to right, rgba(0,0,0, 1), rgba(0,0,0, 0.5)) ;
+  padding-top:40px;
+}
+.skills h2,
+.projects h2,
+.contacts h2 {
+  color: var(--text--acc-colour);
+  padding: 1em;
 }
 
 /*Footer styling*/
