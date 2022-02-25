@@ -1,20 +1,21 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
+import Home from './Home'
+import Skills from './Skills'
+import Projects from './Projects'
+import Contacts from './Contacts'
 
-export default function LandingPage (props) {
+export default function LandingPage(props) {
+  const { data } = props
   return (
-    <div className='welcome'>
-      <Container>
-        <div className='content-tint'>
-          <div className='content'>
-            <h2 id='welcome-name'>mad</h2>
-            <h1 id='welcome-description'>web</h1>
-            <p id='welcome-details'> yesss</p>
-            <button>cta</button>
-            <br />
-          </div>
-        </div>
-      </Container>
-    </div>
+    <Container>
+      <div className='welcome-tint'>
+        <Home data={data} />
+        <Skills data={data} />
+        <Projects projects={data.projects} />
+        <Contacts contacts={data.contacts} />
+      </div>
+    </Container>
+
   )
 }

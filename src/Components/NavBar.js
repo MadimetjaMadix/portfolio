@@ -24,22 +24,22 @@ export default function NavBar () {
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav variant='pills'>
             <NavItem>
-              <LinkContainer to='/#'>
+              <LinkContainer to='#Home'>
                 <Nav.Link> Home</Nav.Link>
               </LinkContainer>
             </NavItem>
             <NavItem>
-              <LinkContainer to='/A'>
+              <LinkContainer to='#Skills'>
                 <Nav.Link> Skills</Nav.Link>
               </LinkContainer>
             </NavItem>
             <NavItem>
-              <LinkContainer to='/B'>
+              <LinkContainer to='#Projects'>
                 <Nav.Link> Projects</Nav.Link>
               </LinkContainer>
             </NavItem>
             <NavItem>
-              <LinkContainer to='/C'>
+              <LinkContainer to='#Contact'>
                 <Nav.Link> Contacts</Nav.Link>
               </LinkContainer>
             </NavItem>

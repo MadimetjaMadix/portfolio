@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import LandingPage from './Components/LandingPage'
 import Footer from './Components/Footer'
+const data = require('./Data/content.json')
 
 function App () {
   return (
@@ -16,7 +17,7 @@ function App () {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path='/' element={<LandingPage />} />
+          <Route path='/' element={<LandingPage data={data} />} />
         </Routes>
         <Footer />
       </BrowserRouter>
