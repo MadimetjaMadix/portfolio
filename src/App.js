@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import LandingPage from './Components/LandingPage'
 import Footer from './Components/Footer'
@@ -16,9 +16,7 @@ function App () {
       />
       <BrowserRouter>
         <NavBar />
-        <Routes>
-          <Route path='/' element={<LandingPage data={data} />} />
-        </Routes>
+        <LandingPage data={data} />
         <Footer />
       </BrowserRouter>
 

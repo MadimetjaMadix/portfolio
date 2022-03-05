@@ -1,21 +1,21 @@
 {
-    "name":"Madimetja Sethosa",
+    "name":"Madimetja",
     "logoPath":"../Images/My-Logo.png",
     "tagLine":"an aspiring Full-Stack Web Developer",
     "description":"I am an Electrical Engineer, who loves to build things in real life, internet and everything in betwen. My interests lie between Software Engineering and Data science.",
     "contacts": [
         {
-            "name": "email",
+            "name": "E-mail",
             "link": "mailto:madimetjasethoa@gmail.com",
             "icon": "fluent:mail-48-filled"
         },
         {
-            "name": "linkedIn",
-            "link": "https://www.linkedin.com/in/madimetja-sethosa-230754b9/",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/madimetja-sethosa",
             "icon": "fa:linkedin-square"
         },
         {
-            "name": "github",
+            "name": "Github",
             "link": "https://github.com/MadimetjaMadix",
             "icon": "fa:github-square"
         }
@@ -55,17 +55,19 @@
     "projects":[
         { "name": "Current Weather App",
           "year": "2022",
-          "link": "http://",
-          "preview": "http://",
+          "link": "",
+          "preview": "https://mad-current-weather-app.herokuapp.com",
+          "image": "../Images/Projects/CWA-Project.png",
           "type":"API based Web Application",
           "description": "Designed and implemented a web application for viewing current weather information. The app makes use of the OpenWeather API for weather data and Goodgle API for location Autocomplete.",
-          "association":"",
+          "association":"Personal Project",
           "technologies":["HTML5","CSS","Javascript","React","Node.js","Express.js"]
         },
         { "name": "Honours Project: Actions Speak Louder than Words",
             "year": "2020",
-            "link": "https://",
+            "link": "",
             "preview": "http://youtu.be/QZNpWKaolqI",
+            "image": "../Images/Projects/ASL-Project.png",
             "type":"Computer Pogramme",
             "description": "Designed and implemented a computer program that has the ability to translate South African Sign Language to text, and then speech.",
             "association":"University of the Witwatersrand",
@@ -73,8 +75,9 @@
           },
           { "name": "BillCleave Web Application",
             "year": "2020",
-            "link": "http://",
+            "link": "",
             "preview": "https://youtu.be/yX5VTxSFXF4",
+            "image": "../Images/Projects/Billcleave-Project.png",
             "type":"Web application",
             "description": "A web application for splitting bills in a shared household. Applying good practices for collaborative software development, making use of agile project management techniques.",
             "association":"University of the Witwatersrand",
@@ -83,7 +86,8 @@
           { "name": "File Transfer Application",
             "year": "2019",
             "link": "https://github.com/MadimetjaMadix/File-Transfer-Application-FTP",
-            "preview": "http://",
+            "preview": "",
+            "image": "../Images/Projects/FTP-Project.png",
             "type":"Computer Pogramme",
             "description": " Designed and implemented a file transfer application system which makes use of the networking principles such as protocols, application and transport layer, socket programming etc. The application has a user‐interface which allows a user to perform the desired tasks as per the RFC 959 document.",
             "association":"University of the Witwatersrand",
@@ -92,7 +96,8 @@
           { "name": "Centipede Arcade Game",
             "year": "2019",
             "link": "https://github.com/MadimetjaMadix/Centipede",
-            "preview": "http://",
+            "preview": "",
+            "image": "../Images/Projects/Centipede-Project.png",
             "type":"Computer Pogramme",
             "description": "Implemented an arcade game in the fixed shooter genre in an Object Orientated design.",
             "association":"University of the Witwatersrand",
