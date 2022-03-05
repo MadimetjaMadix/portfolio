@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,32 +14,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### `npm predeploy`
+runs: `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Thid deploys the app to react pages using the repo path. (In my Case https://madimetjamadix.github.io/portfolio/ )
 
-### `npm run eject`
+`Note:` update the homepage tag in the pakage.json file to https://[your-username].github.io/(your-repository)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Editing
+## `Content`
+To update/change the content of the Portfolio, you have to update the `content.json` file in the `Data` folder. You'll put your own name, logoPath, tagLine, ... e.t.c. Make sure the pathnames to the images correspond to the names of the images.
+## `Icons`
+For Icons go to [Iconify](https://icon-sets.iconify.design/) and search for your desired icon names. Feel free to change the Icons' styles to your own liking.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## `Images`
+- The main pictures like the `Logo`, `Background` and `animated-svg` reside in the `Images` folder in the `src` folder. If you change their names, make sure to update the code also.
+- The projects Background images resides in the path: `public/assets/Images/`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
+# Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
