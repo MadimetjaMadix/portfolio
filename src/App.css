@@ -58,7 +58,7 @@ nav {
 
 /* Landing page styling*/
 .App {
-  background-image: url(./Images/landing-bg.jpg);
+  background-image: url(./Images/landing-bg.webp);
   background-size: cover;
   background-position: center;
   transition: 1s ease-in-out;
