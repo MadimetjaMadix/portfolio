@@ -191,6 +191,7 @@ nav {
   height: 90%;
   align-items: center;
   position: relative;
+  box-shadow: 1px 1px 1px rgba(112, 112, 112, 0.5);
 }
 
 .project-content {
