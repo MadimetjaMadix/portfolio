@@ -53,6 +53,26 @@
             "icon": "vscode-icons:file-type-sql"}
     ],
     "projects":[
+        { "name": "Rock Paper Scissors Game",
+            "year": "2022",
+            "link": "https://github.com/MadimetjaMadix/Rock-Paper-Scissors",
+            "preview": "https://madimetjamadix.github.io/Rock-Paper-Scissors/",
+            "image": "./assets/Images/RPC-Project.JPG",
+            "type":"React Game Web Application",
+            "description": "The focus of this project was on working with the React frame-work and Javascript. The design of this game makes one think of the state management and the data structure of the of the game (the flow of Data).",
+            "association":"Personal Project",
+            "technologies":["HTML5","CSS","Javascript","React"]
+        },
+        { "name": "Sudoku Game",
+            "year": "2022",
+            "link": "https://github.com/MadimetjaMadix/Sudoku-game",
+            "preview": "https://mad-sudoku.herokuapp.com/",
+            "image": "./assets/Images/Sudoku-Project.JPG",
+            "type":"React Game Web Application",
+            "description": "The focus of this project was on working with the React frame-work and Javascript. The design of this game makes one think of the state management and the data structure of the of the game (the flow of Data). Although one can use an npm package for getting the Sudoku board (solved and unsolved), a library of function were created from scratch to handle all that.",
+            "association":"Personal Project",
+            "technologies":["HTML5","CSS","Javascript","React"]
+        },
         { "name": "Current Weather App",
           "year": "2022",
           "link": "",
